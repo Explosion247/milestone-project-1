@@ -3,6 +3,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The SteelBook Collection</title>
+
     <!-- Bootstrap link -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
@@ -10,63 +11,77 @@
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous"
     />
+    <!-- CSS link -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img
-              src="assets/images/outline-board-game-box-vector-260nw-1382440694.webp"
-              alt="Logo"
-              width="30"
-              height="24"
-              class="d-inline-block align-text-top"
-            />
-            The SteelBook Collection
-          </a>
-          <a class="navbar-brand" href="#">The SteelBook Collection</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarText"
-            aria-controls="navbarText"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-            </ul>
-            <span class="navbar-text">
-              Navbar text with an inline element
-            </span>
-          </div>
+    <nav
+      id="navbar"
+      class="navbar navbar-expand-lg fixed-top"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="assets/images/logos/outline-board-game-box-vector-260nw-1382440694.webp"
+            alt="Logo"
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top"
+          />
+        </a>
+        <a class="navbar-brand" href="#">The SteelBook Collection</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+    <header></header>
     <main>
+      <!-- Popular Games carousel -->
       <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="..." class="d-block w-100" alt="..." />
+            <img
+              src="assets/images/pokemon/legends-arceus-front.JPG"
+              class="d-block w-100"
+              alt="pokemon legends: Arceus steelbook front"
+            />
           </div>
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="..." />
+            <img
+              src="assets/images/pokemon/sv-front.JPG"
+              class="d-block w-100"
+              alt="Pokemon Scarlet and Violet duel pack steelbook front"
+            />
           </div>
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="..." />
+            <img
+              src="assets/images/pokemon/sword-front.JPG"
+              class="d-block w-100"
+              alt="Pokemon Sword steelbook front"
+            />
           </div>
         </div>
         <button
@@ -88,64 +103,94 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <div class="card" style="width: 18rem">
-        <img src="..." class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card’s content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
+      <!-- Card Selection -->
+      <div>
+        <!-- Playstation Card -->
+        <a href="#" class="btn">
+          <div class="card" style="width: 18rem">
+            <img
+              src="assets/images/logos/playstation-Logo.png"
+              class="card-img-top"
+              alt="Playstation Logo"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="fa-brands fa-playstation"></i> Playstation
+              </h5>
+            </div>
+          </div>
+        </a>
+        <!-- Xbox Card -->
+        <a href="#" class="btn">
+          <div class="card" style="width: 18rem">
+            <img
+              src="assets/images/logos/xbox-Logo.png"
+              class="card-img-top"
+              alt="Xbox Logo"
+            />
+            <div class="card-body">
+              <h5 class="card-title"><i class="fa-brands fa-xbox"></i> Xbox</h5>
+            </div>
+          </div>
+        </a>
+        <!-- Nintendo Card -->
+        <a href="#" class="btn"
+          ><div class="card" style="width: 18rem">
+            <img
+              src="assets/images/logos/nintendo_Switch_logo.svg.png"
+              class="card-img-top"
+              alt="Nintendo Switch Logo"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="fa-solid fa-network-wired"></i> Nintendo
+              </h5>
+            </div>
+          </div></a
+        >
+        <!-- Movie Card -->
+        <a href="#" class="btn">
+          <div class="card" style="width: 18rem">
+            <img
+              src="assets/images/logos/premium_vector-1719017644511-d368822bb3cb.avif"
+              class="card-img-top"
+              alt="movie clapboard"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="fa-solid fa-film"></i> Movies
+              </h5>
+            </div>
+          </div>
+        </a>
       </div>
-      <div class="card" style="width: 18rem">
-        <img src="..." class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card’s content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem">
-        <img src="..." class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card’s content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem">
-        <img src="..." class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card’s content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
+      <!-- Description Div -->
       <div>
         <p>Paragraphs</p>
       </div>
-
+      <!-- New Release Carousel -->
       <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="..." class="d-block w-100" alt="..." />
+            <img
+              src="assets/images/pokemon/legends-arceus-rear.JPG"
+              class="d-block w-100"
+              alt="pokemon legends: Arceus steelbook rear"
+            />
           </div>
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="..." />
+            <img
+              src="assets/images/pokemon/sv-rear.JPG"
+              class="d-block w-100"
+              alt="Pokemon Scarlet and Violet duel pack steelbook rear"
+            />
           </div>
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="..." />
+            <img
+              src="assets/images/pokemon/sword-rear.JPG"
+              class="d-block w-100"
+              alt="Pokemon Sword steelbook rear"
+            />
           </div>
         </div>
         <button
@@ -173,6 +218,11 @@
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Font Awesome js -->
+    <script
+      src="https://kit.fontawesome.com/3fd09ae9c6.js"
       crossorigin="anonymous"
     ></script>
   </body>

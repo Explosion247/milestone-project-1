@@ -1,0 +1,15 @@
+/* Color pallet */
+:root {
+  --primary-color: #e3e1de;
+  --secondary-color: #2f2d2e;
+  --tertiary-color: #457b9d;
+}
+/* Global styles */
+body {
+  background-color: var(--primary-color);
+}
+/* NavBar */
+#navbar {
+  background-color: var(--secondary-color);
+}
+/*  */
