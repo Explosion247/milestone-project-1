@@ -1,15 +1,52 @@
 /* Color pallet */
 :root {
-  --primary-color: #e3e1de;
+  --primary-color: white;
   --secondary-color: #2f2d2e;
   --tertiary-color: #457b9d;
 }
 /* Global styles */
 body {
   background-color: var(--primary-color);
+  margin-left: 5%;
+  margin-right: 5%;
+}
+/* .container {
+  width: auto;
+  top: 50%;
+  left: 50%;
+} */
+.section {
+  padding-top: 4rem;
 }
 /* NavBar */
 #navbar {
   background-color: var(--secondary-color);
 }
-/*  */
+/* carousel  */
+/* #popular-games {
+  height: 50rem;
+  width: 80%;
+} */
+/* #popular-games .carousel-item img {
+  height: 50rem;
+} */
+/* Cards */
+#brand-cards .card {
+  height: auto;
+  width: 20vw;
+  display: flex;
+}
+#brand-cards .link {
+  padding: 5%;
+}
+#brand-cards .card img {
+  height: auto;
+  width: 20vw;
+}
+
+/* media querys for different sized screens
+@media screen and (min-width: 768px) {
+  #xbox .card {
+    margin-left: 50%;
+  }
+} */
