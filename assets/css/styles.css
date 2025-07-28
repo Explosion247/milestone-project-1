@@ -5,10 +5,13 @@
   --tertiary-color: #457b9d;
 }
 /* Global styles */
-body main {
+body {
   background-color: var(--primary-color);
-  margin-left: 5%;
-  margin-right: 5%;
+  padding-top: 80px;
+}
+body main {
+  margin-left: 10%;
+  margin-right: 10%;
 }
 /* .container {
   width: auto;
@@ -28,16 +31,15 @@ body main {
 }
 /* carousel  */
 /* #popular-games {
-  height: 50rem;
-  width: 80%;
-} */
-/* #popular-games .carousel-item img {
-  height: 50rem;
+  height: auto;
+}
+#popular-games .carousel-item img {
+  height: auto;
 } */
 /* Cards */
 #brand-cards .card {
   height: auto;
-  width: 20vw;
+  width: 15vw;
   display: flex;
 }
 #brand-cards .link {
@@ -45,7 +47,7 @@ body main {
 }
 #brand-cards .card img {
   height: auto;
-  width: 20vw;
+  width: 15vw;
 }
 /* footer */
 footer {
