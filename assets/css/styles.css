@@ -13,11 +13,7 @@ body main {
   margin-left: 10%;
   margin-right: 10%;
 }
-/* .container {
-  width: auto;
-  top: 50%;
-  left: 50%;
-} */
+
 .section {
   padding-top: 4rem;
 }
@@ -30,12 +26,7 @@ body main {
   height: 24px;
 }
 /* carousel  */
-/* #popular-games {
-  height: auto;
-}
-#popular-games .carousel-item img {
-  height: auto;
-} */
+
 /* Cards */
 #brand-cards .card {
   width: 15vw;
@@ -47,6 +38,12 @@ body main {
 #brand-cards .card img {
   height: auto;
   width: 15vw;
+}
+/* Nintendo page */
+#nintendo-games,
+#nintendo-games img {
+  height: 30vh;
+  width: auto;
 }
 /* footer */
 footer {
