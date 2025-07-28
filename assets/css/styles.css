@@ -5,7 +5,7 @@
   --tertiary-color: #457b9d;
 }
 /* Global styles */
-body {
+body main {
   background-color: var(--primary-color);
   margin-left: 5%;
   margin-right: 5%;
@@ -21,6 +21,10 @@ body {
 /* NavBar */
 #navbar {
   background-color: var(--secondary-color);
+}
+#navbar img {
+  width: 30px;
+  height: 24px;
 }
 /* carousel  */
 /* #popular-games {
@@ -42,6 +46,10 @@ body {
 #brand-cards .card img {
   height: auto;
   width: 20vw;
+}
+/* footer */
+footer {
+  background-color: var(--secondary-color);
 }
 
 /* media querys for different sized screens
