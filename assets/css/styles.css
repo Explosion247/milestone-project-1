@@ -56,7 +56,9 @@ footer {
 
 /* media querys for different sized screens
 @media screen and (min-width: 768px) {
-  #xbox .card {
-    margin-left: 50%;
+  #brand-cards .card,
+  #brand-cards .card-body {
+    width: 25vw;
+    height: auto;
   }
 } */
