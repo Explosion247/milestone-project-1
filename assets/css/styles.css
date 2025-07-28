@@ -45,8 +45,20 @@ body main {
   height: 30vh;
   width: auto;
 }
+#nintendo-games {
+  width: 60vw;
+}
+/* cards */
+#game-cards .card {
+  height: 40vh;
+}
+.padding-test {
+  padding: 2rem;
+}
+
 /* footer */
 footer {
+  margin-top: 50px;
   background-color: var(--secondary-color);
 }
 
