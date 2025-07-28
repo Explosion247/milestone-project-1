@@ -38,7 +38,6 @@ body main {
 } */
 /* Cards */
 #brand-cards .card {
-  height: auto;
   width: 15vw;
   display: flex;
 }
@@ -54,11 +53,16 @@ footer {
   background-color: var(--secondary-color);
 }
 
-/* media querys for different sized screens
-@media screen and (min-width: 768px) {
+/* media querys for different sized screens */
+@media screen and (max-width: 768px) {
   #brand-cards .card,
-  #brand-cards .card-body {
-    width: 25vw;
-    height: auto;
+  #brand-cards .card img {
+    width: 30vw;
   }
-} */
+}
+@media screen and (max-width: 1199px) {
+  #brand-cards .card,
+  #brand-cards .card img {
+    width: 30vw;
+  }
+}
