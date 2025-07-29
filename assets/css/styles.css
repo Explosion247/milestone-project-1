@@ -1,8 +1,12 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap");
+
 /* Color pallet */
 :root {
   --primary-color: white;
   --secondary-color: #2f2d2e;
   --tertiary-color: #457b9d;
+  --primary-font: "Bitcount Prop Single", sans-serif;
 }
 /* Global styles */
 body {
@@ -12,6 +16,14 @@ body {
 body main {
   margin-left: 10%;
   margin-right: 10%;
+}
+.navbar-brand {
+  font-family: var(--primary-font);
+}
+h1 {
+  font-family: var(--primary-font);
+  font-size: 2.5rem;
+  font-weight: 400;
 }
 
 .section {
@@ -23,7 +35,7 @@ body main {
 }
 #navbar img {
   width: 30px;
-  height: 24px;
+  height: auto;
 }
 /* carousel  */
 
@@ -40,20 +52,27 @@ body main {
   width: 15vw;
 }
 /* Nintendo page */
+/* carousel */
 #nintendo-games,
 #nintendo-games img {
   height: 30vh;
   width: auto;
 }
-#nintendo-games {
-  width: 60vw;
+
+#nintendo-games .carousel-inner img {
+  margin: auto;
 }
 /* cards */
 #game-cards .card {
-  height: 40vh;
+  max-height: 46vh;
+  max-width: 18rem;
+  min-height: 18rem;
 }
 .padding-test {
   padding: 2rem;
+}
+#game-cards {
+  border: none;
 }
 
 /* footer */
