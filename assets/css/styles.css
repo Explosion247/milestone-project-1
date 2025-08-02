@@ -25,7 +25,6 @@ h1 {
   font-size: 2.5rem;
   font-weight: 400;
 }
-
 .section {
   padding-top: 4rem;
 }
@@ -37,8 +36,6 @@ h1 {
   width: 30px;
   height: auto;
 }
-/* carousel  */
-
 /* Cards */
 #brand-cards .card {
   width: 15vw;
@@ -74,7 +71,10 @@ h1 {
 #game-cards {
   border: none;
 }
-
+/* Game Page CSS */
+#game-page-carousel img {
+  height: 50vh;
+}
 /* footer */
 footer {
   margin-top: 50px;
