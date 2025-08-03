@@ -74,6 +74,7 @@ h1 {
 /* Game Page CSS */
 #game-page-carousel img {
   height: 50vh;
+  margin: auto;
 }
 #game-page-carousel {
   margin-bottom: 1rem;
