@@ -75,17 +75,38 @@ h1 {
 #game-page-carousel img {
   height: 50vh;
 }
+#game-page-carousel {
+  margin-bottom: 1rem;
+}
+#description-p {
+  margin: 1rem;
+  text-align: center;
+}
 /* footer */
 footer {
   margin-top: 50px;
   background-color: var(--secondary-color);
 }
-
+.social-links i {
+  color: white;
+  padding: 0.5rem;
+}
 /* media querys for different sized screens */
 @media screen and (max-width: 768px) {
   #brand-cards .card,
   #brand-cards .card img {
     width: 30vw;
+  }
+  #main-game-info {
+    text-align: center;
+  }
+
+  #game-page-carousel {
+    display: flex;
+    justify-content: center;
+  }
+  #tab-panels {
+    margin-bottom: 4rem;
   }
 }
 @media screen and (max-width: 1199px) {
