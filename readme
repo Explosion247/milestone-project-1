@@ -28,9 +28,37 @@ The Aim Of this website is to make it as easy as possible to find new steelbooks
 
 ## features
 
+One of the main components of this website is the front-end toolkit called bootstrap, there are many different parts of the website that uses bootstrap components. Each of the main component that are used are listed below.
+
 **Navigation**
 
+The navigation uses the bootstrap navbar with a custom logo/image in the the top left. This navbar has been customised to suit the steelbook collection website with the different brands/pages in the top right. This navbar contains the title for the website and will stay in the left when the website is 992 px or wider and when then move to the center when the page is 991 px or smaller. When this change happens the categories will also compress in to a drop down menu.
+
+![NavBar 992px wide](assets/images/markdown/navbar-992px-wide.png)
+
+- styled with the primary colour for the text and the secondary colour for the navbar
+- allows the user to navigate between each page easily - all the text on the nav bar will take you to a different page
+
+![NavBar 991px or smaller collapsed](assets/images/markdown/navbar-991px-smaller-collapsed.png)
+
+![NavBar 991px or smaller expaned](assets/images/markdown/navbar-991px-smaller-dropdown.png)
+
+- Uses a dropdown menu to allow for easy access on mobile screens
+- The Title will move to the center to make it easier to read on smaller screen
+
+**Carousels**
+
+I have included carousels on each page to allow the user to see games that they might not have seen before or to see the different parts of the steelbooks without having the page filled with multiple photos. The main page has 2 carousels, the top carousel shows examples of different steelsbooks while the bottom carousel shows new collectors editions that contain steel books.
+
+![Nintendo Carousel](assets/images/markdown/carousel.png)
+
+- All the carousels will scale to the size of the page
+- The carousels with text next to them will move the text below on smaller screens
+- each carousel shows games relevant to the page they are on
+
 **Cards**
+
+I have used cards as a easy way to move between different pages. Using images makes it easier for the user to know what page they are moving to. Eah
 
 **Information**
 
