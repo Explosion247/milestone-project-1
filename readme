@@ -1,0 +1,59 @@
+# The SteelBook Collection
+
+[The Steelbook collection](https://explosion247.github.io/milestone-project-1/)
+
+## Site Overview
+
+This project is to create a responsive website, I have chosen to create a website to help you with your video game collection.
+
+one common part of video game collecting is special/limited editions. These special/limited editions often contain a special metal case called a steelbook that is used to show off your game cases.
+
+This website is a designed to help you find new steelbooks or collectors editions that you would like to find. As there could be millions of games, there could be hundreds of thousands of unique steelbooks, this website only lists a few, however there will be more to come in the future.
+
+The Aim Of this website is to make it as easy as possible to find new steelbooks to help people complete their collections, as this is a recently created website, there are only a few games included, however as time goes on i would like to include a wider range of titles.
+
+## Table of Content
+
+## User Experiance UX
+
+### user stories
+
+## design
+
+### Colours
+
+### Wireframes
+
+## Deployment
+
+## features
+
+**Navigation**
+
+**Cards**
+
+**Information**
+
+**Tabs**
+
+**Footer**
+
+**Favicon**
+
+**Coming Soon**
+
+As there are parts of the website that i would like to implement in the future but do not have the time, I have created a coming soon page to let people know that these features have not been implemented yet and will be sometime in the future. The Main features that link to this page is the "Xbox" Page as there are no xbox games currently on the website, and there is the "Your Collection" page, this is because the collection page would require more games on the website and JavaScript to create lists and databases within the website.
+
+## Testing
+
+## Code Validation
+
+### HTML Validation
+
+### CSS Validation
+
+### Lighthouse Testing
+
+## Technologies Used
+
+## Credits and References
