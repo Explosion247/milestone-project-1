@@ -115,29 +115,57 @@ I have included carousels on each page to allow the user to see games that they 
 **Cards**
 
 I have used cards as a easy way to move between different pages. Using images makes it easier for the user to know what page they are moving to as each page correlates to an image.
+
+![Main page cards](assets/images/markdown/main-page-cards.png)
+
 **Information**
 
 To make it easier for the user to see the information about each game, the main, short information about each game is listed next/below (on a smaller screen) the image while the description and reviews are on tabs below, this reduces the clutter on the screen and allows the user to choose the information they would like to see.
+
+![Main page information](assets/images/markdown/game-page-information.png)
 
 **Footer**
 
 There is not much information on the footer. the footer is only containing another navbar and then links to the social media. At the moment there are no social media pages however that will change in the future.
 
+![Footer](assets/images/markdown/footer.png)
+
 **Coming Soon**
 
 As there are parts of the website that i would like to implement in the future but do not have the time, I have created a coming soon page to let people know that these features have not been implemented yet and will be sometime in the future. The Main features that link to this page is the "Xbox" Page as there are no xbox games currently on the website, and there is the "Your Collection" page, this is because the collection page would require more games on the website and JavaScript to create lists and databases within the website.
 
-## Testing
+![Comming Soon page](assets/images/markdown/coming-soon.png)
 
-## Code Validation
+## Testing
 
 ### HTML Validation
 
+When testing the HTML there were some errors that appeared and have been fixed, they were mainly spaces within file names, and the most common warning was trailing slashes due to prettier being installed, this will automatically add trailing slashes onto self closing tags.
+
+- to fix the file names i renamed them using dashes rather then spaces
+- to fix the trailing slashes i searched for /> and replaced it using >
+
+![HTML Validation pass](assets/images/markdown/testing/html-check-complete-pass.png)
+
 ### CSS Validation
+
+When Testing the CSS there were no errors that appeared in the Validation
+
+![CSS Validation pass](assets/images/markdown/testing/jigsaw-css-validation.png)
 
 ### Lighthouse Testing
 
 ## Technologies Used
+
+### Languages
+
+HTML and CSS
+
+links to JavaScript have been used
+
+## Technology
+
+GitHub
 
 ## Credits and References
 
