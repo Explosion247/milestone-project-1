@@ -152,3 +152,10 @@ During the production of this website i have used the following sources:
 Some images are sources from:
 
 - https://collectorseditions.co.uk/
+- https://www.amazon.co.uk/Pokemon-Sword-Steelbook/dp/B081LLS6Y4
+- https://www.reddit.com/r/PS4/comments/om6t45/my_steelbook_collection_of_the_ps4_era_is_coming/
+- https://screenrant.com/playstation-consoles-best-worst-ranked-ps2-ps5-ps4/
+- https://en.wikipedia.org/wiki/Nintendo_Switch
+- https://commons.wikimedia.org/wiki/File:Playstation_logo_colour.svg
+- https://commons.wikimedia.org/wiki/File:Xbox_one_logo.svg
+- https://megacatstudios.com/ja/blogs/game-culture/6-tips-building-managing-your-retro-gaming-collection
