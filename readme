@@ -18,11 +18,65 @@ The Aim Of this website is to make it as easy as possible to find new steelbooks
 
 ### user stories
 
+- As a steelbook collector i would like to have a place i can see all the different types of steelbooks there are so i can know what steelbook i still need to buy
+
+- As a steelbook collector i would like to have a website with all the steelbooks so i can keep track of my collection
+
+- As a person who place video games i would like to have a website with a lot of different video games so i can find new recommendations
+
 ## design
 
 ### Colours
 
-### Wireframes
+For the Colours of this website, i have used two basic colours, white and jet. As this website contains alot of images, they provide a range of colours for the website.
+
+![colour pallet](assets/images/markdown/colour-pallet.png)
+
+### Wireframe
+
+When designing this website, i used balsamiq to make the a clear structure thats easy to understand.
+
+<br>
+Main page Wireframe:
+
+<br>
+
+During the creating of the main page, i focused on making the main page as clear as possible to the user. during the creation of the website a few things needed to be changed.
+
+- The description was moved to the right of the carousel to prevent large blank spaces
+- A welcome paragraph was added above the description
+- I removed the third carousel to improve performance on mobile devices
+
+<details>
+<summary>click to view wireframe</summary>
+
+![Main page wireframe](assets/images/markdown/main-screen-wireframe.png)
+
+</details>
+<br>
+Game list Wireframe:
+
+<br>
+<details>
+<summary>click to view wireframe</summary>
+
+![Game list Wireframe](assets/images/markdown/game-list-screen-wireframe.png)
+
+</details>
+<br>
+Game page Wireframe:
+
+<br>
+During the creation of this page i had to change two things
+
+- remove the summary tab because it was the same as the description
+- on the smaller screens make the information into a 2x2 grid
+<details>
+<summary>click to view wireframe</summary>
+
+![Game list Wireframe](assets/images/markdown/game-page-screen-wireframe.png)
+
+</details>
 
 ## Deployment
 
@@ -58,15 +112,14 @@ I have included carousels on each page to allow the user to see games that they 
 
 **Cards**
 
-I have used cards as a easy way to move between different pages. Using images makes it easier for the user to know what page they are moving to. Eah
-
+I have used cards as a easy way to move between different pages. Using images makes it easier for the user to know what page they are moving to as each page correlates to an image.
 **Information**
 
-**Tabs**
+To make it easier for the user to see the information about each game, the main, short information about each game is listed next/below (on a smaller screen) the image while the description and reviews are on tabs below, this reduces the clutter on the screen and allows the user to choose the information they would like to see.
 
 **Footer**
 
-**Favicon**
+There is not much information on the footer. the footer is only containing another navbar and then links to the social media. At the moment there are no social media pages however that will change in the future.
 
 **Coming Soon**
 
