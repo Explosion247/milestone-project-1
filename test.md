@@ -14,6 +14,8 @@ The Aim Of this website is to make it as easy as possible to find new steelbooks
 
 ## Table of Content
 
+[link](#deployment)
+
 ## User Experiance UX
 
 ### user stories
@@ -138,3 +140,15 @@ As there are parts of the website that i would like to implement in the future b
 ## Technologies Used
 
 ## Credits and References
+
+During the production of this website i have used the following sources:
+
+- Example code from the Board walk games and love running made by Code Institute
+- getbootstrap.com
+- W3Schools.com
+- StackOverflow.com
+- Fontawsome.com
+
+Some images are sources from:
+
+- https://collectorseditions.co.uk/
