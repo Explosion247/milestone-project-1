@@ -75,13 +75,13 @@ Please view some of the pages below
 
 ### Colours
 
-For the Colours of this website, i have used two basic colours, white and jet. As this website contains alot of images, they provide a range of colours for the website.
+For the colours of this website, i have used two basic colours, white and jet. As this website contains a lot of images, they provide a range of colours for the website.
 
 ![colour pallet](assets/images/markdown/colour-pallet.png)
 
 ### Wireframe
 
-When designing this website, i used balsamiq to make the a clear structure thats easy to understand.
+When designing this website, i used Balsamiq to make the a clear structure thats easy to understand.
 
 <br>
 Main page Wireframe:
@@ -133,7 +133,7 @@ One of the main components of this website is the front-end toolkit called boots
 
 #### Navigation
 
-The navigation uses the bootstrap navbar with a custom logo/image in the the top left. This navbar has been customised to suit the steelbook collection website with the different brands/pages in the top right. This navbar contains the title for the website and will stay in the left when the website is 992 px or wider and when then move to the center when the page is 991 px or smaller. When this change happens the categories will also compress in to a drop down menu.
+The navigation uses the bootstrap navbar with a custom logo/image in the the top left. This navbar has been customized to suit the steelbook collection website with the different brands/pages in the top right. This navbar contains the title for the website and will stay in the left when the website is 992 px or wider and when then move to the center when the page is 991 px or smaller. When this change happens the categories will also compress in to a drop down menu.
 
 ![NavBar 992px wide](assets/images/markdown/navbar-992px-wide.png)
 
@@ -149,7 +149,7 @@ The navigation uses the bootstrap navbar with a custom logo/image in the the top
 
 #### Carousels
 
-I have included carousels on each page to allow the user to see games that they might not have seen before or to see the different parts of the steelbooks without having the page filled with multiple photos. The main page has 2 carousels, the top carousel shows examples of different steelsbooks while the bottom carousel shows new collectors editions that contain steel books.
+I have included carousels on each page to allow the user to see games that they might not have seen before or to see the different parts of the steelbooks without having the page filled with multiple photos. The main page has 2 carousels, the top carousel shows examples of different steelbooks while the bottom carousel shows new collectors editions that contain steel books.
 
 ![Nintendo Carousel](assets/images/markdown/carousel.png)
 
@@ -200,7 +200,7 @@ When Testing the CSS there were no errors that appeared in the Validation
 
 #### Lighthouse Testing
 
-During the light house tesing, one of the errors that repeatedly appeared is "image elements do not have explicit width and height" this is an error that i have not fixed because during development if i gave the image a set width then it would affect gaps between the cards or the location of the cards, so removing the set size and having set gaps would ensure the cards always stayed the same distance from each other while letting the images scale for different sized devices.
+During the light house testing, one of the errors that repeatedly appeared is "image elements do not have explicit width and height" this is an error that i have not fixed because during development if i gave the image a set width then it would affect gaps between the cards or the location of the cards, so removing the set size and having set gaps would ensure the cards always stayed the same distance from each other while letting the images scale for different sized devices.
 
 All the light house testing had results in the 90's for desktop tests.
 
