@@ -155,6 +155,8 @@ When Testing the CSS there were no errors that appeared in the Validation
 
 ### Lighthouse Testing
 
+during the light house tesing, one of the errors that repeatedly appeared is "image elements do not have explicit width and height" this is an error that i have not fixed because during development if i gave the image a set width then it would affect gaps between the cards or the location of the cards, so removing the set size and having set gaps would ensure the cards always stayed the same distance from each other while letting the images scale for different sized devices.
+
 ## Technologies Used
 
 ### Languages
