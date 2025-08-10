@@ -42,7 +42,7 @@ The Aim Of this website is to make it as easy as possible to find new steelbooks
 
 ## User Experience UX
 
-### user stories
+### User stories
 
 - As a steelbook collector i would like to have a place i can see all the different types of steelbooks there are so i can know what steelbook i still need to buy
 
