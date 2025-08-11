@@ -1,12 +1,12 @@
 # The SteelBook Collection
 
-[The Steelbook collection](https://explosion247.github.io/milestone-project-1/)
+[The Steelbook collection](https://explosion247.github.io/the-steelbook-collection/)
 
 ## Site Overview
 
 This project is to create a responsive website, I have chosen to create a website to help you with your video game collection.
 
-one common part of video game collecting is special/limited editions. These special/limited editions often contain a special metal case called a steelbook that is used to show off your game cases.
+One common part of video game collecting is special/limited editions. These special/limited editions often contain a special metal case called a steelbook that is used to show off your game cases.
 
 This website is a designed to help you find new steelbooks or collectors editions that you would like to find. As there could be millions of games, there could be hundreds of thousands of unique steelbooks, this website only lists a few, however there will be more to come in the future.
 
