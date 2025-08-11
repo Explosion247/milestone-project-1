@@ -1,5 +1,7 @@
 # The SteelBook Collection
 
+![Main page mockup](assets/images/markdown/index-mockup.png)
+
 [The Steelbook collection](https://explosion247.github.io/the-steelbook-collection/)
 
 ## Site Overview
@@ -21,20 +23,23 @@ The Aim Of this website is to make it as easy as possible to find new steelbooks
 - [Colours](#colours)
 - [Wireframe](#wireframe)
 
+[Features](#features)
+
+[Navigation](#navigation)
+[Carousel](#carousels)
+[Cards](#cards)
+[Information](#information)
+[Footer](#footer)
+[Coming Soon](#coming-soon)
+
 [Deployment](#deployment)
 
-- [Features](#features)
-  - [Navigation](#navigation)
-  - [Carousel](#carousels)
-  - [Cards](#cards)
-  - [Information](#information)
-  - [Footer](#footer)
-  - [Coming Soon](#coming-soon)
-- [Testing](#testing)
-  - [HTML Validation](#html-validation)
-  - [CSS Validation](#css-validation)
-  - [Lighthouse Testing](#lighthouse-testing)
-  - [Manual Testing](#manual-testing)
+[Testing](#testing)
+
+[HTML Validation](#html-validation)
+[CSS Validation](#css-validation)
+[Lighthouse Testing](#lighthouse-testing)
+[Manual Testing](#manual-testing)
 
 [Technologies Used](#technologies-used)
 
@@ -125,13 +130,11 @@ During the creation of this page i had to change two things
 
 </details>
 
-## Deployment
-
-### Features
+## Features
 
 One of the main components of this website is the front-end toolkit called bootstrap, there are many different parts of the website that uses bootstrap components. Each of the main component that are used are listed below.
 
-#### Navigation
+### Navigation
 
 The navigation uses the bootstrap navbar with a custom logo/image in the the top left. This navbar has been customized to suit the steelbook collection website with the different brands/pages in the top right. This navbar contains the title for the website and will stay in the left when the website is 992 px or wider and when then move to the center when the page is 991 px or smaller. When this change happens the categories will also compress in to a drop down menu.
 
@@ -147,7 +150,7 @@ The navigation uses the bootstrap navbar with a custom logo/image in the the top
 - Uses a dropdown menu to allow for easy access on mobile screens
 - The Title will move to the center to make it easier to read on smaller screen
 
-#### Carousels
+### Carousels
 
 I have included carousels on each page to allow the user to see games that they might not have seen before or to see the different parts of the steelbooks without having the page filled with multiple photos. The main page has 2 carousels, the top carousel shows examples of different steelbooks while the bottom carousel shows new collectors editions that contain steel books.
 
@@ -157,33 +160,41 @@ I have included carousels on each page to allow the user to see games that they 
 - The carousels with text next to them will move the text below on smaller screens
 - Each carousel shows games relevant to the page they are on
 
-#### Cards
+### Cards
 
 I have used cards as a easy way to move between different pages. Using images makes it easier for the user to know what page they are moving to as each page correlates to an image.
 
 ![Main page cards](assets/images/markdown/main-page-cards.png)
 
-#### Information
+### Information
 
 To make it easier for the user to see the information about each game, the main, short information about each game is listed next/below (on a smaller screen) the image while the description and reviews are on tabs below, this reduces the clutter on the screen and allows the user to choose the information they would like to see.
 
 ![Main page information](assets/images/markdown/game-page-information.png)
 
-#### Footer
+### Footer
 
 There is not much information on the footer. The footer is only containing another navbar and then links to the social media. At the moment there are no social media pages however that will change in the future.
 
 ![Footer](assets/images/markdown/footer.png)
 
-#### Coming Soon
+### Coming Soon
 
 As there are parts of the website that i would like to implement in the future but do not have the time, I have created a coming soon page to let people know that these features have not been implemented yet and will be sometime in the future. The Main features that link to this page is the "Xbox" Page as there are no xbox games currently on the website, and there is the "Your Collection" page, this is because the collection page would require more games on the website and JavaScript to create lists and databases within the website.
 
 ![Comming Soon page](assets/images/markdown/coming-soon.png)
 
-### Testing
+## Deployment
 
-#### HTML Validation
+To begin deploying the website, i created the basics of the files, the index.html and assets folder (with the image folder and CSS folder containing styles.css) then using source control built into Visual Studio Code, i initialized the repository to send the file to git hub.
+
+During the production i used the source control to push and pull any changes that have been made.
+
+Once i have my first page compleat i deployed onto github pages to begin testing on a deployed site. To do this you go on the repository's settings, pages, select the main branch and click save. This provided the link https://explosion247.github.io/the-steelbook-collection/ allowing other to access the website.
+
+## Testing
+
+### HTML Validation
 
 When testing the HTML there were some errors that appeared and have been fixed, they were mainly spaces within file names, and the most common warning was trailing slashes due to prettier being installed, this will automatically add trailing slashes onto self closing tags.
 
@@ -192,13 +203,13 @@ When testing the HTML there were some errors that appeared and have been fixed, 
 
 ![HTML Validation pass](assets/images/markdown/testing/html-check-complete-pass.png)
 
-#### CSS Validation
+### CSS Validation
 
 When Testing the CSS there were no errors that appeared in the Validation
 
 ![CSS Validation pass](assets/images/markdown/testing/jigsaw-css-validation.png)
 
-#### Lighthouse Testing
+### Lighthouse Testing
 
 During the light house testing, one of the errors that repeatedly appeared is "image elements do not have explicit width and height" this is an error that i have not fixed because during development if i gave the image a set width then it would affect gaps between the cards or the location of the cards, so removing the set size and having set gaps would ensure the cards always stayed the same distance from each other while letting the images scale for different sized devices.
 
@@ -210,9 +221,11 @@ However The testing with mobile resulted in 70s - 80s as the website has a lot o
 
 ![light house testing nintendo mobile](assets/images/markdown/testing/lighthouse-testing-nintendo-mobile.png)
 
-#### Manual Testing
+### Manual Testing
 
-During The production of the website, this website has constantly been manually tested. Each link has been tested to ensure that they work correctly, Each Page has been manually tested at different screen sizes to ensure they work as it should.
+During The production of the website, this website has constantly been manually tested. Each link has been tested to ensure that they work correctly, Each Page has been manually tested at different screen sizes to ensure they work as it should. As some of the pages are not implemented yet, not all of the links will open the corresponding pages. For the pages that are not implemented a coming soon page has been created to show the user that these pages will be coming at some point.
+
+![Manual Testing Table](assets/images/markdown/testing/manual-testing-table.png)
 
 ## Technologies Used
 
